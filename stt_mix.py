@@ -7,7 +7,6 @@ root =Tk()
 def text_eng():
     Head['text']='Start talking'
     Head.pack()
-    text=''
     r  = sr.Recognizer()
     with sr.Microphone() as source:
         r.energy_threshold = 4000
