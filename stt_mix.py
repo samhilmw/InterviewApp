@@ -21,8 +21,6 @@ def text_eng():
         except: 
             Head['text']='Sorry, couldnt hear you! Try again'
             Head.pack()
-
-                
     
 def text_hin():
     Head['text']='Start talking'
